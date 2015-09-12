@@ -1,20 +1,22 @@
 {
   "name": "eyeglass-inline-svg",
-  "version": "0.0.0",
-  "description": "Sass eyeglass module",
+  "version": "0.0.1",
+  "description": "Sass eyeglass module for inlining SVG files.",
   "license": "MIT",
-  "repository": "someuser/eyeglass-inline-svg",
+  "repository": "strarsis/eyeglass-inline-svg",
   "author": {
-    "name": "",
-    "email": "",
-    "url": "https://github.com/someuser"
+    "name": "strarsis",
+    "email": "strarsis@gmail.com",
+    "url": "https://github.com/strarsis/eyeglass-inline-svg"
   },
   "files": [
     "sass"
   ],
   "keywords": [
     "eyeglass-module",
-    "sass"
+    "sass",
+    "inline",
+    "svg"
   ],
   "main": "eyeglass-exports.js",
   "dependencies": {
