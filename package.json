@@ -1,0 +1,26 @@
+{
+  "name": "eyeglass-inline-svg",
+  "version": "0.0.0",
+  "description": "Sass eyeglass module",
+  "license": "MIT",
+  "repository": "someuser/eyeglass-inline-svg",
+  "author": {
+    "name": "",
+    "email": "",
+    "url": "https://github.com/someuser"
+  },
+  "files": [
+    "sass"
+  ],
+  "keywords": [
+    "eyeglass-module",
+    "sass"
+  ],
+  "main": "eyeglass-exports.js",
+  "dependencies": {
+    "eyeglass": "*"
+  },
+  "devDependencies": {
+    "inline-escape": "file:../inline-escape"
+  }
+}
