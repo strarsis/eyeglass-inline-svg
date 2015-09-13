@@ -20,9 +20,8 @@
   ],
   "main": "eyeglass-exports.js",
   "dependencies": {
-    "eyeglass": "*"
-  },
-  "devDependencies": {
-    "inline-escape": "file:../inline-escape"
+    "eyeglass": "*",
+    "eyeglass-filetext": "file:../eyeglass-filetext",
+    "eyeglass-inline-urlescape": "file:../eyeglass-inline-urlescape",
   }
 }
