@@ -19,9 +19,15 @@
     "svg"
   ],
   "main": "eyeglass-exports.js",
+  "scripts": {
+    "test": "sass-lint ./sass/*.scss"
+  },
   "dependencies": {
     "eyeglass": "*",
     "eyeglass-filetext": "file:../eyeglass-filetext",
-    "eyeglass-inline-urlescape": "file:../eyeglass-inline-urlescape",
+    "eyeglass-inline-urlescape": "file:../eyeglass-inline-urlescape"
+  },
+  "devDependencies": {
+    "sass-lint": "^1.2.0"
   }
 }
