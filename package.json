@@ -39,7 +39,9 @@
     "node-sass": "^3.3.2"
   },
   "dependencies": {
-    "eyeglass": "^0.6.2"
+    "eyeglass": "^0.6.2",
+    "eyeglass-file-text": "0.0.5",
+    "eyeglass-inline-urlescape": "0.0.3"
   },
   "scripts": {
     "test": "./node_modules/.bin/gulp test"
