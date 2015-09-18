@@ -56,4 +56,4 @@ Please note that automated SVG optimization may break a SVG or make it unrendera
 
 Misc
 ----
-If you only want/need the escaped URL string without the rest of the data URI, use the inline-urlescape function provided by the eyeglass-inline-urlescape module.
+If you only want/need the escaped URL string without the rest of the data URI, use the inline-urlescape function provided by the underlying [eyeglass-inline-urlescape](https://github.com/strarsis/eyeglass-inline-urlescape) module.
