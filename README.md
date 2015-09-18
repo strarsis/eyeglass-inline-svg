@@ -47,7 +47,8 @@ $svg-text: inline-svg-file("./assets/svg/opt/test.svg");
 }
 // [...]
 ````
-When the inlined background should be reused multiple times, using an extend can be more efficient. 
+When the inlined background should be reused multiple times, using an extend can be more efficient.
+
 The mixin has to be used when overriding properties - as extends cannot do this (style order dependent).
 
 
