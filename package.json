@@ -26,7 +26,7 @@
   ],
   "eyeglass": {
     "needs": "^0.6.2",
-    "name": "file-text",
+    "name": "inline-svg",
     "exports": "eyeglass-exports.js"
   },
   "devDependencies": {
