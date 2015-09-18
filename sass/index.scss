@@ -1,3 +1,6 @@
+@import 'file-text';
+@import 'inline-urlescape';
+
 @function inline-svg($path, $encoding: 'utf8') {
-  @return url("data:image/svg+xml;charset=utf8,#{inline-urlescape(get-filetext($path, $encoding))}");
+  @return url("data:image/svg+xml;charset=utf8,#{inline-urlescape(file-text($path, $encoding))}");
 }
