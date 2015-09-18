@@ -44,7 +44,7 @@ The SVG string to be inlined.
 Rationale
 ---------
 This eyeglass module actually provides two functions, one for inlining a SVG *string* and one for inlining a SVG *file*.
-The reason behind this is that one may want first to manipulate the SVG string to be inlined, modifications that aren't possible with CSS properties like fill. For this the SVG string is first fetched using file-text function (provided by   [eyeglass-file-text](https://github.com/strarsis/eyeglass-file-text)), passed to a SVG manipulation function and then finally passed to the inline-svg function of this eyeglass module.
+The reason behind this is that one may want first to manipulate the SVG string to be inlined, e.g. for modifications that aren't possible with CSS properties like fill. For this the SVG string is first fetched using file-text function (provided by   [eyeglass-file-text](https://github.com/strarsis/eyeglass-file-text)), passed to a SVG manipulation function and then finally passed to the inline-svg function of this eyeglass module.
 
 
 Optimization + Troubleshooting
