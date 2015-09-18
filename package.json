@@ -1,7 +1,7 @@
 {
   "name": "eyeglass-inline-svg",
   "description": "Sass eyeglass module for inlining SVG files.",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": {
     "name": "strarsis",
     "email": "strarsis@gmail.com",
