@@ -1,6 +1,6 @@
 # eyeglass-inline-svg
 
-Now you can finally inline SVGs with libsass, too!
+Now you can finally inline SVG files with libsass, too!
 
 
 Installation
