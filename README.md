@@ -19,7 +19,9 @@ Usage
   background: inline-svg-file("./assets/svg/opt/test.svg") center no-repeat;
 }
 ````
-Using a variable is suitable for including the SVG background in a CSS3 multiple background, though extending is not possible then.
+Using a variable is suitable for including the SVG background in a CSS3 multiple background, 
+though extending (see below) is not possible in the particular selector then.
+
 
 Using an inlined SVG multiple times
 -----------------------------------
@@ -45,9 +47,8 @@ $svg-text: inline-svg-file("./assets/svg/opt/test.svg");
 }
 // [...]
 ````
-When the inlined background should be reused multiple times, using an extend can be more efficient (though there is also gzip deduplicating patterns).
-The mixin has to be used when overriding CSS as extends cannot do this (style order dependent).
-Note: There may be the hypothetical case where the overhead of the selectors by the extend may be larger than the data URI of the SVG in the body.
+When the inlined background should be reused multiple times, using an extend can be more efficient. 
+The mixin has to be used when overriding properties - as extends cannot do this (style order dependent).
 
 
 Arguments
