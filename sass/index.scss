@@ -2,9 +2,9 @@
 @import 'inline-urlescape';
 
 @function inline-svg($str) {
-  @return url("data:image/svg+xml;charset=utf8,#{inline-urlescape(" + str + ")}");
+  @return url("data:image/svg+xml;charset=utf8,#{inline-urlescape($str)}");
 }
 
-@function inline-svg-file($path, $encoding='utf8') {
+@function inline-svg-file($path, $encoding:'utf8') {
   @return inline-svg(file-text($path, $encoding));
 }
