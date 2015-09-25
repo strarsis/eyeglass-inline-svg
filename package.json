@@ -40,7 +40,7 @@
   },
   "dependencies": {
     "eyeglass": "^0.6.2",
-    "eyeglass-file-text": "0.0.6",
+    "eyeglass-file-text": "0.0.7",
     "eyeglass-inline-urlescape": "0.0.5"
   },
   "scripts": {
