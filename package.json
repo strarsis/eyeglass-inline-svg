@@ -25,11 +25,12 @@
     "background-image"
   ],
   "eyeglass": {
-    "needs": "^0.6.2",
+    "needs": "^0.6.4",
     "name": "inline-svg",
     "exports": "eyeglass-exports.js"
   },
   "devDependencies": {
+    "eyeglass": "^0.6.4",
     "eyeglass-dev-eslint": "^2.0.0",
     "eyeglass-dev-testutils": "0.0.5",
     "gulp": "^3.9.0",
@@ -39,9 +40,8 @@
     "node-sass": "^3.3.2"
   },
   "dependencies": {
-    "eyeglass": "^0.6.2",
-    "eyeglass-file-text": "0.0.7",
-    "eyeglass-inline-urlescape": "0.0.5"
+    "eyeglass-file-text": "0.0.9",
+    "eyeglass-inline-urlescape": "0.0.7"
   },
   "scripts": {
     "test": "./node_modules/.bin/gulp test"
