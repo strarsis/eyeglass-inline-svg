@@ -1,7 +1,7 @@
 {
   "name": "eyeglass-inline-svg",
   "description": "Sass eyeglass module for inlining SVG files.",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "author": {
     "name": "strarsis",
     "email": "strarsis@gmail.com",
@@ -25,14 +25,14 @@
     "background-image"
   ],
   "eyeglass": {
-    "needs": "^0.6.4",
+    "needs": "^0.7.1",
     "name": "inline-svg",
     "exports": "eyeglass-exports.js"
   },
   "devDependencies": {
-    "eyeglass": "^0.6.4",
+    "eyeglass": "^0.7.1",
     "eyeglass-dev-eslint": "^2.0.0",
-    "eyeglass-dev-testutils": "0.0.5",
+    "eyeglass-dev-testutils": "^1.0.0",
     "gulp": "^3.9.0",
     "gulp-eslint": "^1.0.0",
     "gulp-mocha": "^2.1.3",
@@ -40,8 +40,8 @@
     "node-sass": "^3.3.2"
   },
   "dependencies": {
-    "eyeglass-file-text": "^0.1.0",
-    "eyeglass-inline-urlescape": "0.0.7"
+    "eyeglass-file-text": "^0.2.0",
+    "eyeglass-inline-urlescape": "^0.1.0"
   },
   "scripts": {
     "test": "./node_modules/.bin/gulp test"
