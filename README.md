@@ -2,6 +2,8 @@
 
 Now you can finally inline SVG files with libsass, too!
 
+[![david](https://david-dm.org/strarsis/eyeglass-inline-svg.svg)](https://david-dm.org/strarsis/eyeglass-inline-svg)
+
 [![NPM](https://nodei.co/npm/eyeglass-inline-svg.png?downloads=true&downloadRank=true&stars=true)](https://nodei.co/npm/eyeglass-inline-svg/)
 
 
