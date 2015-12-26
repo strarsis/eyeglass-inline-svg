@@ -40,7 +40,7 @@
     "node-sass": "^3.3.2"
   },
   "dependencies": {
-    "eyeglass-file-text": "^0.2.0",
+    "eyeglass-file-text": "^0.4.0",
     "eyeglass-inline-urlescape": "^0.2.0"
   },
   "scripts": {
