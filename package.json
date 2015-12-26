@@ -30,7 +30,7 @@
     "exports": "eyeglass-exports.js"
   },
   "devDependencies": {
-    "eyeglass": "^0.7.1",
+    "eyeglass": "^0.8.0",
     "eyeglass-dev-eslint": "^2.0.0",
     "eyeglass-dev-testutils": "^1.0.0",
     "gulp": "^3.9.0",
@@ -41,7 +41,7 @@
   },
   "dependencies": {
     "eyeglass-file-text": "^0.2.0",
-    "eyeglass-inline-urlescape": "^0.1.0"
+    "eyeglass-inline-urlescape": "^0.2.0"
   },
   "scripts": {
     "test": "./node_modules/.bin/gulp test"
