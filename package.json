@@ -25,7 +25,7 @@
     "background-image"
   ],
   "eyeglass": {
-    "needs": "^0.8.0",
+    "needs": ">=0.8.0",
     "name": "inline-svg",
     "exports": "eyeglass-exports.js"
   },
